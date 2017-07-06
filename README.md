@@ -1,4 +1,4 @@
-## An example of build a Go (golang) service with a very minimal Docker image (~ 5 MB)
+## A Go (golang) app/service with a very minimal Docker image (~ 5 MB)
 
 ### tech stack
 * **Go** - a programming language that is fast, uses minimal resources and supports high concurrency
