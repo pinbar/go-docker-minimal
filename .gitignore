@@ -1,0 +1,19 @@
+# Project
+.project
+.settings
+.vscode
+
+# Dependencies
+vendor/
+vendors/
+
+# Executable
+main
+
+# mac crap
+.DS_Store
+
+# Runtime data
+pids
+*.pid
+*.seed
