@@ -19,5 +19,6 @@
 
 ### notes
 * this example shows how to build a very minimal image of your go app without needing to use even alpine base image
-    * the executable, which is fully statically linked, is built outside the container and then copied onto the image
+    * check the size with `docker images`
+* the executable, which is fully statically linked, is built outside the container and then copied onto the image. This allows it to be able to run independently.
 * since the base image is `scratch`, there are known TLS limitations that need a workaround
