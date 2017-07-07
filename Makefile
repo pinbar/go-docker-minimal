@@ -15,4 +15,3 @@ stop:
 	-docker stop go-minimal
 
 cleanrun: clean build image run
-rerun: run
