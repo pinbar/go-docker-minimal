@@ -15,7 +15,7 @@
 * in the project directory, run `make cleanrun`
 * check the image size with `docker images | grep pinbar/go-docker-minimal`
 
-## test the service
+### test the service
 * launch the browser and point to the baseurl `localhost:8080`
     * port can be changed in `main.go` and `Dockerfile`
 * use the make commands in the `Makefile` to start or stop the container
